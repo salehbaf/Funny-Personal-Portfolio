@@ -1,0 +1,53 @@
+/* page styling for cleaner look */
+body {
+    font-family: Arial, sans-serif;/* standard readable font */
+    text-align: center;/* center everything */
+    background-color: #f4f4f4;/* light grey background*/
+    color: #333;/* dark grey background*/
+    margin: 0;
+    padding: 0;
+}
+
+/* main container keeps everything in a nice box */
+.container {
+    max-width: 800px; /* so it doesnt stretch to wide*/
+    margin: 20px auto;/* center it on the page*/
+    background: white;/* white background to stand out*/
+    padding: 20px;/* add some space inside*/
+    border-radius: 10px;/* rounded corner for a softer look*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);/* light shaddow effect*/
+}
+
+/* Header section for a big title*/
+header h1 {
+    color: #007BFF;/* make the title blue*/
+    font-size: 28px;/* slightly larger text*/
+}
+
+/* about section where i talked about myself */
+.about h2 {
+    color: #0056b3;/* darker bluc section for heading*/
+}
+/* fun facts list*/
+.fun-facts {
+    list-style: none;/* remove bullet points*/
+    padding: 0;
+}
+
+.fun-facts li {
+    margin: 10px 0; /* space out the facts*/
+    font-size: 18px;/* make them easier to read */
+}
+
+/* Profile Image */
+.profile img {
+    width: 100%; /* make sure it scales properly */
+    max-width: 300px; /* not to big*/
+    border-radius: 10px;/* make edges round*/
+    margin-top: 15px;/* add some space above it*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);/* give it a cool shadow look*/
+}
+
+
+
+
