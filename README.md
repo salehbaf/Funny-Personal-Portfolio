@@ -35,7 +35,7 @@ Wanna see it in action? Just follow these steps:
    npm install 
 ```
 
-3. Start The Server
+### 3. Start The Server
 ```sh
    node server.js
 ```
@@ -44,7 +44,7 @@ Wanna see it in action? Just follow these steps:
    ```sh
    node --watch server.js
 ```
-4. Open in Browser
+### 4. Open in Browser
 ```sh
    http://localhost:8080
   ``` 
